@@ -6,9 +6,17 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Assignment-3-1 Repo</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
 <script src="https://cdn.tailwindcss.com"></script>
+<style>
+  
+</style>
 </head>
-<body>
+<body class="">
   <!-- header section -->
   <header>
     <nav class="md:flex justify-around pt-10 bg-[#FFF9F4]">
@@ -60,22 +68,22 @@
 
     </nav>
 
-    <section class="md:container mx-auto  mt-10 border-4">
-      <div class="">
-        <!-- title section -->
-         <div class="">
-          <h2 class="text-4xl mt-10 font-bold">Pamper Your Pet,
-            <br> Because They Deserve<br> the Bes</h2>
-            <p class="mt-10">Discover a world of treats, toys, and essentials handpicked for your<br> 
-              furry friends. Shop now and make tails wag with joy!</p>
-            <button class="btn bg-yellow-500 mt-5" >Find a pet</button>
-         </div>
-         <div class="border-4">
-          <img class="max-w-[700px] h-80" src="c1-assets/cat-big.png">
-         </div>
+    <section>
+      <div>
+        <div class="">
+          <h3>Pamper Your Pet, Because They Deserve the Bes</h3>
+        </div>
+
+        <div class="bg-[url(./c1-assets/cat-big.png)] h-[85vh] bg-no-repeat	border-4"></div>
 
       </div>
+
     </section>
+
+    
+
+
+
 
   </header>
 
@@ -361,7 +369,7 @@
 
       <div class="md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-10">
         <!-- first card -->
-        <div class="max-w-[700px]  bg-[#F8CCFB] [#ACD2FD] rounded-xl  border-4 border-none" >
+        <div class="max-w-[700px] bg-gradient-to-r from-slate-300 to-yellow-500 rounded-xl  border-4 border-none" >
           <div class="ml-10 i mt-">
           <p class="mt-5">Under Price</p>
           <h2 class="text-3xl font-bold mt-5">Pet Grooming Mitt</h2>
@@ -378,7 +386,7 @@
         </div>
 
         <!-- scend card -->
-        <div class="max-w-[510px]  bg-[#F9DF8A] rounded-xl  border-4 border-none">
+        <div class="max-w-[510px] bg-gradient-to-r from-slate-200 to-yellow-200 rounded-xl  border-4 border-none">
           <div class="ml-10">
             <h3 class="text-4xl mt-10">T-Shirt for Dogs</h3>
             <h2 class="text-4xl font-extrabold text-yellow-500 mt-5">$7.99</h2>
@@ -399,7 +407,7 @@
    <!-- footer section -->
     <footer class="relative max-w-full mt-56 bg-[#ffdb26a4]">
 
-      <section class="absolute -mt-48 md:container ml-2 lg:ml-48 mx-auto bg-[#FFF9F4]">
+      <section class="absolute -mt-48 md:container  ml-8 lg:ml-48 mx-auto bg-[#FFF9F4]">
         <div class="md:flex text-center ">
           <div class="lg:ml-20">
             <img src="c1-assets/cute-pet-mid.png">
@@ -411,7 +419,7 @@
       
             <p class="mt-5">Exclusive training tips, ticks,<br> product deals and more.</p>
             
-            <input class="sm:wx-[10px] lg:w-[400px] lg:h-[40px] mt-5" type="email" placeholder="Enter email....">
+            <input class="sm:wx-[10px] h-10 lg:w-[400px] lg:h-[40px] mt-5" type="email" placeholder="Enter email....">
             <div>
             <button class="btn bg-yellow-500 mt-5" >Subscribe</button>
             </div>
